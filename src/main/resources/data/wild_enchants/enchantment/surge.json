@@ -1,0 +1,12 @@
+{
+  "description": { "translate": "enchantment.wild_enchants.surge" },
+  "supported_items": "#minecraft:enchantable/weapon",
+  "primary_items": "#minecraft:enchantable/melee_weapon",
+  "weight": 3,
+  "max_level": 4,
+  "min_cost": { "base": 12, "per_level_above_first": 10 },
+  "max_cost": { "base": 42, "per_level_above_first": 10 },
+  "anvil_cost": 6,
+  "slots": [ "mainhand" ],
+  "effects": {}
+}

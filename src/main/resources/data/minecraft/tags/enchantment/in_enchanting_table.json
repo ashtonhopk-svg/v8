@@ -1,0 +1,25 @@
+{
+  "values": [
+    "wild_enchants:exploding",
+    "wild_enchants:surge",
+    "wild_enchants:thunderstrike",
+    "wild_enchants:lightning",
+    "wild_enchants:carrot",
+    "wild_enchants:tumble",
+    "wild_enchants:cloning",
+    "wild_enchants:flight",
+    "wild_enchants:radius",
+    "wild_enchants:air_jump",
+    "wild_enchants:dash",
+    "wild_enchants:fallback",
+    "wild_enchants:phase",
+    "wild_enchants:grapple",
+    "wild_enchants:frostbite",
+    "wild_enchants:backstab",
+    "wild_enchants:timber",
+    "wild_enchants:telekinesis",
+    "wild_enchants:reach",
+    "wild_enchants:magnet",
+    "wild_enchants:afterlife"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "description": {
+    "translate": "enchantment.wild_enchants.reach"
+  },
+  "supported_items": "#minecraft:enchantable/durability",
+  "weight": 2,
+  "max_level": 4,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 40,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "wild_enchants:reach_block",
+        "attribute": "minecraft:block_interaction_range",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.0,
+          "per_level_above_first": 1.0
+        },
+        "operation": "add_value"
+      },
+      {
+        "id": "wild_enchants:reach_entity",
+        "attribute": "minecraft:entity_interaction_range",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.0,
+          "per_level_above_first": 1.0
+        },
+        "operation": "add_value"
+      }
+    ]
+  }
+}

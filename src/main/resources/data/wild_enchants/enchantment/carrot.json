@@ -1,0 +1,23 @@
+{
+  "description": { "translate": "enchantment.wild_enchants.carrot" },
+  "supported_items": "#minecraft:enchantable/weapon",
+  "primary_items": "#minecraft:enchantable/melee_weapon",
+  "weight": 2,
+  "max_level": 7,
+  "min_cost": { "base": 5, "per_level_above_first": 7 },
+  "max_cost": { "base": 35, "per_level_above_first": 7 },
+  "anvil_cost": 4,
+  "slots": [ "mainhand" ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "wild_enchants:carrot_farmland",
+          "radius": { "type": "minecraft:linear", "base": 2.0, "per_level_above_first": 1.0 }
+        }
+      }
+    ]
+  }
+}

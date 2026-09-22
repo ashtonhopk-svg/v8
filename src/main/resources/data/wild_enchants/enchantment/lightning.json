@@ -1,0 +1,19 @@
+{
+  "description": { "translate": "enchantment.wild_enchants.lightning" },
+  "supported_items": "#minecraft:enchantable/bow",
+  "weight": 2,
+  "max_level": 1,
+  "min_cost": { "base": 25, "per_level_above_first": 0 },
+  "max_cost": { "base": 55, "per_level_above_first": 0 },
+  "anvil_cost": 8,
+  "slots": [ "mainhand" ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": { "type": "wild_enchants:lightning_strike" }
+      }
+    ]
+  }
+}

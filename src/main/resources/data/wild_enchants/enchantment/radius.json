@@ -1,0 +1,23 @@
+{
+  "description": { "translate": "enchantment.wild_enchants.radius" },
+  "supported_items": "#minecraft:enchantable/weapon",
+  "primary_items": "#minecraft:enchantable/melee_weapon",
+  "weight": 2,
+  "max_level": 5,
+  "min_cost": { "base": 10, "per_level_above_first": 10 },
+  "max_cost": { "base": 40, "per_level_above_first": 10 },
+  "anvil_cost": 6,
+  "slots": [ "mainhand" ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "wild_enchants:radius",
+          "radius": { "type": "minecraft:linear", "base": 2.0, "per_level_above_first": 1.0 }
+        }
+      }
+    ]
+  }
+}

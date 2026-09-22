@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "wild_enchants",
+  "version": "${version}",
+  "name": "Wild Enchants",
+  "description": "Adds a big set of new enchantments: Exploding, Surge, Thunderstrike, Lightning, Carrot, Tumble, Cloning, Flight, Radius, Air Jump, Dash, Fallback, Phase, Grapple, Frostbite, Backstab, Timber, Telekinesis, Reach, Magnet, Afterlife.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.wildenchants.WildEnchants"
+    ],
+    "client": [
+      "com.wildenchants.client.WildEnchantsClient"
+    ]
+  },
+  "mixins": [
+    "wild_enchants.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

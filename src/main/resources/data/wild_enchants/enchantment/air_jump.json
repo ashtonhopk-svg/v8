@@ -1,0 +1,11 @@
+{
+  "description": { "translate": "enchantment.wild_enchants.air_jump" },
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 2,
+  "max_level": 5,
+  "min_cost": { "base": 8, "per_level_above_first": 10 },
+  "max_cost": { "base": 38, "per_level_above_first": 10 },
+  "anvil_cost": 4,
+  "slots": [ "feet" ],
+  "effects": {}
+}

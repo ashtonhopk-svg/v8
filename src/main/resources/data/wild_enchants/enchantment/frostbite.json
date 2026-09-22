@@ -1,0 +1,20 @@
+{
+  "description": { "translate": "enchantment.wild_enchants.frostbite" },
+  "supported_items": "#minecraft:enchantable/weapon",
+  "primary_items": "#minecraft:enchantable/melee_weapon",
+  "weight": 2,
+  "max_level": 3,
+  "min_cost": { "base": 12, "per_level_above_first": 10 },
+  "max_cost": { "base": 42, "per_level_above_first": 10 },
+  "anvil_cost": 6,
+  "slots": [ "mainhand" ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": { "type": "wild_enchants:frostbite" }
+      }
+    ]
+  }
+}

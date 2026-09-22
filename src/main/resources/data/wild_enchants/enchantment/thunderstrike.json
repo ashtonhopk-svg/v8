@@ -1,0 +1,20 @@
+{
+  "description": { "translate": "enchantment.wild_enchants.thunderstrike" },
+  "supported_items": "#minecraft:enchantable/weapon",
+  "primary_items": "#minecraft:enchantable/melee_weapon",
+  "weight": 2,
+  "max_level": 1,
+  "min_cost": { "base": 25, "per_level_above_first": 0 },
+  "max_cost": { "base": 55, "per_level_above_first": 0 },
+  "anvil_cost": 8,
+  "slots": [ "mainhand" ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": { "type": "wild_enchants:lightning_strike" }
+      }
+    ]
+  }
+}

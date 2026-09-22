@@ -1,0 +1,21 @@
+{
+  "values": [
+    "#minecraft:leaves",
+    "minecraft:cobweb",
+    "minecraft:vine",
+    "minecraft:glow_lichen",
+    "minecraft:fern",
+    "minecraft:large_fern",
+    "minecraft:short_grass",
+    "minecraft:tall_grass",
+    "minecraft:dead_bush",
+    "minecraft:sugar_cane",
+    "minecraft:seagrass",
+    "minecraft:tall_seagrass",
+    "minecraft:kelp",
+    "minecraft:kelp_plant",
+    "minecraft:hanging_roots",
+    "minecraft:cave_vines",
+    "minecraft:cave_vines_plant"
+  ]
+}
